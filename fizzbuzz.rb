@@ -20,6 +20,16 @@ class FizzBuzz
 		(1..100).map {|number| entry(number)}		
 	end
 
+	# Alternative Solution 
+	def divisible_by(n)
+		case
+			when n % 15 == 0 then n = "fizzbuzz"
+			when n % 3 == 0 then n = "fizz"
+			when n % 5 == 0 then n = "buzz"
+			else n
+		end
+	end
+
 end
 
 puts FizzBuzz.new.range
