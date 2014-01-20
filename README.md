@@ -1,0 +1,1 @@
+Solution(s) to the FIzzbuzz challenge with the equivalent tests.
